@@ -21,7 +21,7 @@ export default async (req, res) => {
     return res.status(401).send('Unauthorized')
   }
 
-  // ensure there's a body
+  // ensure req has body
   if (!req.body) {
     return res.status(400).send('missing body!')
   }
