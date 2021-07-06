@@ -1,0 +1,9 @@
+{
+  "name": "quill-receiver",
+  "version": "1.0.0",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "node-fetch": "^2.6.1",
+    "twilio": "^3.65.0"
+  }
+}
