@@ -18,11 +18,8 @@ export default async (req, res) => {
     req.body
   )
   if (!requestIsValid) {
-    console.log('UNAUTHORIZED')
     return res.status(401).send('Unauthorized')
   }
-
-  console.log('AUTHORIZED')
 
   // ensure there's a body
   if (!req.body) {
